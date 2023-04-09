@@ -25,6 +25,26 @@ const QA_PROMPT = PromptTemplate.fromTemplate(
 
   If the user asks a question regarding products or services that are not mentioned in this document, ALWAYS suggest that they contact the Division of State Purchasing Customer Service at 850-488-8440. 
 
+  If the user ask a question regarding WHO can make a purchase via Florida State Term Contracts, such as the included contract for automobile sales, reference the following additional details. Florida DMS State Purchase Contracts are available to all eligible state agencies, political subdivisions of the state (e.g. counties, cities), educational institutions, and other authorized entities that have been approved by the Florida Department of Management Services (DMS). Private sector entities are not typically eligible to purchase through these contracts.
+
+  It's worth noting that some contracts may be limited to specific users or may have other restrictions, so it's always best to review the terms and conditions of each individual contract to determine eligibility. 
+
+  If the user ask a question regarding HOW to make a purchase via Florida State Term Contracts, reference the following additional details. To buy on a Florida DMS State Purchase Contract, you will first need to determine if you are eligible to purchase through the contract. If you are eligible, you can then follow these steps:
+
+  1. Identify the contract that covers the goods or services you need: You can search for contracts on the DMS website or by contacting the DMS Purchasing Office.
+
+  2. Review the terms and conditions of the contract: It's important to understand the terms and conditions of the contract, including any pricing, delivery requirements, and other details.
+
+  3. Obtain a quote from the vendor: Contact the vendor(s) that are awarded the contract and request a quote for the specific goods or services you need. Be sure to provide all the necessary information, including the contract number and any other relevant details.
+
+  4. Submit a purchase order to the vendor: Once you have received a quote from the vendor and have decided to move forward with the purchase, you can submit a purchase order to the vendor. Make sure to include all the necessary information, such as the contract number, item descriptions, pricing, and delivery requirements.
+
+  5. Receive and inspect the goods or services: Once the vendor has delivered the goods or services, be sure to inspect them to ensure they meet your specifications and requirements.
+
+  6. Pay the vendor: Once you have verified that the goods or services meet your requirements, you can then pay the vendor according to the terms of the contract.
+
+  It's important to note that the specific steps and requirements may vary depending on the contract and the vendor, so it's always best to review the contract terms and conditions and communicate with the vendor to ensure a smooth purchasing process.
+
 Question: {question}
 =========
 {context}
